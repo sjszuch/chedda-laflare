@@ -1,0 +1,97 @@
+// import global styles
+@import "src/styles.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hero-h1 {
+  font-family: "Oleo Script", system-ui;
+  color: #f5bd02;
+  font-size: 7rem;
+  margin: 0;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.container {
+  background-color: $dark2;
+  height: 95vh;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding: 0 2rem;
+}
+
+img {
+  width: 30rem;
+  height: auto;
+
+  margin-top: 5rem;
+}
+
+// mobile media query
+@media (max-width: 768px) {
+  .container {
+    height: 100vh;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  img {
+    width: 20rem;
+    margin: 0;
+  }
+
+  .hero-h1 {
+    font-size: 4rem;
+  }
+
+  .arrow {
+    width: 4rem;
+    margin-top: 2rem;
+  }
+
+  .text {
+    margin-top: 10rem;
+  }
+}
+
+.hero-link {
+  display: flex;
+  text-decoration: none;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+
+  width: fit-content;
+
+  &:hover {
+    background-color: #ffffff;
+    color: $dark1;
+    transition: 0.3s;
+  }
+}

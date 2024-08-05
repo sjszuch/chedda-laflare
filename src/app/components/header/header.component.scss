@@ -1,0 +1,61 @@
+@import "src/styles.scss";
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: $dark1;
+
+  color: #ffffff;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: "Oleo Script", system-ui;
+}
+
+.header-link {
+  text-decoration: none;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+
+  &:hover {
+    background-color: #ffffff;
+    color: $dark1;
+    transition: 0.3s;
+  }
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header-right-mobile {
+  display: none;
+}
+
+.blank {
+  display: none;
+}
+
+// media query for mobile
+@media (max-width: 768px) {
+  .header-right {
+    display: none;
+  }
+
+  .header-right-mobile {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .blank {
+    display: block;
+  }
+}
