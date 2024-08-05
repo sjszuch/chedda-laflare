@@ -1,15 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
-
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-
-$dark2: #0c0c0c;
-$dark1: #080808;
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
   font-family: "Montserrat", sans-serif;
-}
+}/*# sourceMappingURL=styles.css.map */
