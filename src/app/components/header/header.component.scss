@@ -1,7 +1,5 @@
 @import "src/styles.scss";
 
-
-
 .container {
   display: flex;
   justify-content: space-between;
@@ -19,6 +17,7 @@
 }
 
 .header-link {
+  background-color: rgba(255, 255, 255, 0);
   text-decoration: none;
   color: #ffffff;
   border: 2px solid #ffffff;
@@ -29,7 +28,11 @@
     background-color: #ffffff;
     color: $dark1;
     transition: 0.3s;
+    cursor: pointer;
   }
+
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
 .header-right {
@@ -60,4 +63,9 @@
   .blank {
     display: block;
   }
+}
+
+.bars {
+  color: #ffffff;
+  width: 1rem;
 }

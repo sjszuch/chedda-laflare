@@ -6,12 +6,17 @@
       <p>Available on all platforms</p>
     </div>
 
-    <a href="https://www.youtube.com/watch?v=BQ8xE9HVM3Q">
+    <a
+      href="https://www.youtube.com/watch?v=BQ8xE9HVM3Q"
+      class="hero-video-link"
+    >
       <img src="assets/thumbnail.png" alt="" class="hero-thumbnail"
     /></a>
 
     <div class="hero-links">
-      <a href="#" class="hero-link">STREAM/DOWNLOAD</a>
+      <button mat-button (click)="openDialog()" class="hero-link">
+        STREAM/DOWNLOAD
+      </button>
       <img src="assets/arrow-down.gif" alt="" class="arrow" />
     </div>
   </div>
