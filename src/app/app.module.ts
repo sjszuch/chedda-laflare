@@ -11,6 +11,8 @@ import {MatDialogModule} from '@angular/material/dialog';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DialogStreamingComponent } from './components/dialog-streaming/dialog-streaming.component';
+import { ReleasesComponent } from './components/releases/releases.component';
+import { SongCardComponent } from './components/song-card/song-card.component';
 
 
 @NgModule({
@@ -18,7 +20,9 @@ import { DialogStreamingComponent } from './components/dialog-streaming/dialog-s
     AppComponent,
     HeaderComponent,
     HeroComponent,
-    DialogStreamingComponent
+    DialogStreamingComponent,
+    ReleasesComponent,
+    SongCardComponent
   ],
   imports: [
     BrowserModule,

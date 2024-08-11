@@ -1,0 +1,27 @@
+@import "src/styles.scss";
+
+* {
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+h3 {
+  text-align: center;
+  padding: 1rem;
+  color: white;
+}
+
+.container {
+  background-color: #050405;
+}
+

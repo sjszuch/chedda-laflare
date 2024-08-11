@@ -50,6 +50,12 @@ img {
   margin-top: 1rem;
 }
 
+.container {
+  background: linear-gradient(rgba(0, 0, 0, 0), #050405),
+    url("/assets/hero-big.png");
+  background-size: cover;
+}
+
 // mobile media query
 @media (max-width: 768px) {
   .container {
@@ -79,7 +85,8 @@ img {
   }
 
   .container {
-    background-image: url("./hero-small.png");
+    background: linear-gradient(rgba(0, 0, 0, 0), #050405),
+      url("/assets/hero-small.png");
     background-size: cover;
   }
 }
@@ -107,7 +114,6 @@ img {
   font-weight: 700;
 }
 
-// non-mobile media query
 @media (min-width: 769px) {
   .arrow {
     display: none;

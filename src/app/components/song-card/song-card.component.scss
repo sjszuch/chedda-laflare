@@ -1,0 +1,31 @@
+@import "src/styles.scss";
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container-song-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #160f16;
+  width: 15rem;
+  border-radius: 25px;
+  color: #ffffff;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.single-cover {
+  width: 15rem;
+  border-radius: 25px 25px 0 0;
+}
+
+p {
+  margin: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+}
