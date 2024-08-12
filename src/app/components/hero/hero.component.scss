@@ -51,8 +51,7 @@ img {
 }
 
 .container {
-  background: linear-gradient(rgba(0, 0, 0, 0), #050405),
-    url("/assets/hero-big.png");
+  background-image: url("/assets/hero-big.png");
   background-size: cover;
 }
 
@@ -85,8 +84,7 @@ img {
   }
 
   .container {
-    background: linear-gradient(rgba(0, 0, 0, 0), #050405),
-      url("/assets/hero-small.png");
+    background-image: url("/assets/hero-small.png");
     background-size: cover;
   }
 }
