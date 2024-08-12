@@ -51,7 +51,7 @@ img {
 }
 
 .container {
-  background-image: url("/assets/hero-big.png");
+  background-image: url("../../../assets/hero-big.png");
   background-size: cover;
 }
 
@@ -84,7 +84,8 @@ img {
   }
 
   .container {
-    background-image: url("/assets/hero-small.png");
+    // background image from assets/hero-small.png
+    background-image: url("../../../assets/hero-small.png");
     background-size: cover;
   }
 }
