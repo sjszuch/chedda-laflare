@@ -13,6 +13,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DialogStreamingComponent } from './components/dialog-streaming/dialog-streaming.component';
 import { ReleasesComponent } from './components/releases/releases.component';
 import { SongCardComponent } from './components/song-card/song-card.component';
+import { TourInfoComponent } from './components/tour-info/tour-info.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { SongCardComponent } from './components/song-card/song-card.component';
     HeroComponent,
     DialogStreamingComponent,
     ReleasesComponent,
-    SongCardComponent
+    SongCardComponent,
+    TourInfoComponent
   ],
   imports: [
     BrowserModule,
